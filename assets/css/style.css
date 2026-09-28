@@ -44,6 +44,19 @@ a {
     opacity: 0.9;
     cursor: pointer;
 }
+.section-heading {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    color: #10375c;
+}
+.section-desc {
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #575f66;
+}
 
 /* Header */
 .header {
@@ -222,4 +235,29 @@ a {
 .hero__img:last-child {
     width: 210px;
     height: 410px;
+}
+/* Service */
+.service {
+    padding: 170px 0;
+}
+.service__heading,
+.service__desc {
+    text-align: center;
+}
+
+.service__desc {
+    max-width: 468px;
+    /* Tránh ghi đè lên margin-top: 18px của section-desc */
+    margin-left: auto;
+    margin-right: auto;
+}
+.service__row {
+    display: flex;
+    margin-top: 70px;
+}
+.service__img {
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+    object-fit: cover;
 }
